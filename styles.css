@@ -2,6 +2,9 @@
 
 .container {
     display: grid;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f5deb3;
     grid-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px 190px 100px auto 50px;
@@ -11,41 +14,43 @@
                 "main e d"
                 "main e ."
                 "footer footer footer";
+
 }
 
 .grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-color: black;
+    border: 2px solid #a52a2a;
+    color: #ffffff;
 }
 
 #header {
-    background-color: #974544;
+    background-color: hsl(1, 50%, 48%);
     grid-area: header;
 }
 
 #main {
-    background-color: #A13f3e;
+    background-color: hsl(1, 50%, 48%);
     grid-area: main;
 }
 
 #aside-c {
-    background-color: #A13f3e;
+    background-color: hsl(1, 50%, 48%);
     grid-area: c;
 }
 
 #aside-d {
-    background-color: #A13f3e;
+    background-color: hsl(1, 50%, 48%);
     grid-area: d;
 }
 
 #aside-e {
-    background-color: #A13f3e;
+    background-color: hsl(1, 50%, 48%);
     grid-area: e;
 }
 
 #footer {
-    background-color: #A13f3e;
+    background-color: hsl(1, 50%, 48%);
     grid-area: footer;
 }
